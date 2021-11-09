@@ -1,3 +1,2 @@
 # repo-practice
-Upadates made in in github rather than locally.
-And now updates made in a branch.
+This is the first submission of my introduction webpage.
