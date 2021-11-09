@@ -1,0 +1,164 @@
+
+body {
+	background-color: rgb(255, 153, 153);
+	margin-top: 40px;
+	margin-left: 60px;
+	/**
+	<!-- background-color: rgb(220, 220, 220); -->
+	<!-- background-color: gray; -->
+	<!-- this is equivalent to ... -->
+	<!-- rgb(128, 128, 128)or #808080 -->
+	**/
+}
+
+/** heading styles **/
+h1{
+	color: white;
+	font-family: cursive;
+	font-weight: 500px;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+	color: white;
+	text-decoration: underline black;
+}
+h3 {
+	color: rgb(193, 104, 104);
+}
+
+/** paragraph styles **/
+p {
+	/**
+	<!-- bold is font-weight -->
+	<!-- font-weight: bold; -->
+	<!-- other units for size are: pc, px, em, pt, cm, mm, and in -->
+	**/
+	font-size: 1.25em;
+	color: silver;
+}
+
+#focusParagraph {
+color: rgb(100, 100, 100) ;
+font-weight: bold;
+}
+
+
+/** navigation an links **/
+a {
+	/**
+	<!-- italics is font-style -->
+	**/
+	font-style: normal;
+	font-size: small;
+	text-decoration: none;
+	color: rgb(100, 50, 50);
+}
+
+nav {
+	position: fixed;
+	border-style: solid;
+	background-color: rgb(200, 200, 200);
+}
+
+/** table formatting **/
+tr:nth-child(even) {
+  background-color: rgba(250, 200, 200, 0.4);
+}
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(250, 200, 200, 0.4);
+}
+
+ol {
+	font-style: italic;
+}
+
+img {
+	position: relative;
+	vertical-align: middle;
+	margin: 10px 10px;
+}
+
+/** form **/
+form{
+	padding: 15px;
+	background-color: #000000;
+	font-style: italic;
+	border-style: solid;
+	text-align: center;
+	font-weight: 900px;
+	width: 50%;
+	margin-left: 25%
+}
+input[type=button] {
+	color: black;
+	background-color: rgb(100, 100, 100);
+	padding: 5px;
+}
+input[type=button]:hover {
+	border: solid;
+	background-color: white;
+}
+input[type=text]:focus {
+	background-color: gray;
+	color: black;
+	width: 50%;
+	transition: 2s;
+}
+
+
+
+#div1 {
+background-color: #c0c0c0;
+width: 200px;
+margin: 10px;
+/**
+<!-- background-color: rgb(211, 211, 211); -->
+<!--border -->
+**/
+text-align: center;
+
+/**
+<!-- background-color: rgb(105, 105, 105); -->
+<!-- color: rgb(0, 0, 0); -->
+<!-- width: 200px height:200px -->
+**/
+}
+
+#div2 {
+background-color: black;
+/**
+<!-- background-color: rgb(192, 192, 192);  -->
+<!-- color: rgb () -->
+**/
+}
+
+#div3 {
+background-color: rgb(169, 169, 169);
+/**
+<!-- background-color: rgb (119, 136, 153); -->
+<!-- lightslategray -->
+**/
+}
+
+#div4 {
+background-color: rgb(25, 0, 0);
+color: white;
+max-width: 500px;
+text-align: center;
+
+/**
+<!--skipped -->
+<!-- background-color: rgb (125, 128, 144); -->
+
+<!-- background-color: rgb (125, 128, 144); -->
+<!-- slategray -->
+**/
+}
+
+#div1, #div2, #div3, #div4 {
+	border: dashed;
+	position: static;
+}
+
+
